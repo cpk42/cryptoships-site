@@ -1,0 +1,32 @@
+.leaderboard-wrapper{
+    width: 80%;
+}
+
+.leaderboard-container{
+    width: 100%;
+}
+
+.leaderboard-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.leaderboard-row-rank {
+    font-size: .8em;
+    margin: 0;
+    padding: 7px;
+    border-radius: 22px;
+    width: 20px;
+    text-align: center;
+}
+
+.leaderboard-row-name {
+    font-size: 1em;
+    margin: 0;
+}
+
+.lbr-dark {
+    background-color: rgb(224, 234, 245);
+}
