@@ -26,7 +26,9 @@ const Ships = () => {
 	// if (data) offers = data.offers
 	var Cards = []
 	for (var i = 0; i < 20; i++) {
-		Cards.push(<Card key={i} title={'CryptoShip'} />)
+		Cards.push(
+			<Card key={i} title={'CryptoShip'} image={'/images/ShipSE.gif'} />
+		)
 	}
 
 	return <>{Cards}</>

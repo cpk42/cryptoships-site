@@ -26,7 +26,9 @@ const Astros = () => {
 	// if (data) offers = data.offers
 	var Cards = []
 	for (var i = 0; i < 20; i++) {
-		Cards.push(<Card key={i} title={'Astronaut'} />)
+		Cards.push(
+			<Card key={i} title={'Astronaut'} image={'/images/astro019.gif'} />
+		)
 	}
 
 	return <>{Cards}</>

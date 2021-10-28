@@ -6,7 +6,7 @@ import {
 	CardOwner,
 } from './CardSectionStyles'
 
-const Card = ({ Card, title, handleClick }) => {
+const Card = ({ Card, title, image, handleClick }) => {
 	return (
 		<CardWrapper
 		// key={Card.id}
@@ -16,7 +16,7 @@ const Card = ({ Card, title, handleClick }) => {
 				// src={
 				// 	Card.image_url || '/images/astro019.gif'
 				// }
-				src={'/images/astro019.gif'}
+				src={image}
 			/>
 			{/* <CardTitle>{Card.name || Card.token_id}</CardTitle> */}
 			<CardTitle>{`${title} #019`}</CardTitle>
